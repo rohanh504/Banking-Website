@@ -1,0 +1,15 @@
+/* style.css */
+body {
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+.auth-left {
+  background: linear-gradient(135deg,#0d6efd 0%, #6610f2 100%);
+  color: white;
+  min-height: 100%;
+}
+.card { border-radius:12px; }
+#qrcode canvas { max-width: 100%; height: auto; }
+@media (max-width: 767px) {
+  .auth-left { display: none; }
+  .card { margin: 0 12px; }
+}
